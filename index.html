@@ -76,7 +76,7 @@
 							<h4 class="piccap">Scott Landes</h4>
 						</div>
 						<div class="four columns pic-container">
-							<img src="images/june.jpg" class="teampic" />
+							<img src="images/june.jpg" class="teampic" id="jw" onclick="chim();" />
 							<br>
 							<h4 class="piccap">June Williams</h4>
 						</div>
@@ -113,6 +113,14 @@
 			</div>
 		</div>
 	</div>
+	
+	<script type="text/javascript">
+		var n = 0;
+		function chim(){
+			if(n<9){n++;}
+			else{document.getElementById("jw").src="images/june2.png";}
+		}
+	</script>
 
 <!-- End Document-->
 </body>
